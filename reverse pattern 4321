@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n;
+    cin>>n;
+    i=n;
+    while(i>=1)
+    {
+        int j=4;
+        while(j>=1)
+        {
+            cout<<j;
+            j--;
+        }
+        i--;
+        cout<<endl;
+    }
+}
