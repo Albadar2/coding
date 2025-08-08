@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,j,i;
+    cin>>n;
+    i=n;
+   
+    while(i>=1)
+    {
+        j=1;
+        char sum = 65;
+        while(j<=n){
+          cout<<sum;
+        sum=65+j;
+        j++;
+        }
+        cout<<endl;
+        i--;
+    }
+   
+    return 0;
+}
