@@ -1,0 +1,21 @@
+using namespace std;
+int main(){
+    int n,i,j;
+    char ch;
+    cin>>n;
+     i=4;
+     while(i>=1){
+         j=1;
+         
+         while(j<=i){
+            
+         
+             cout<<"*";
+             j++;
+             
+            }
+         cout<<endl;
+         i--;
+         }
+    return 0;
+}
